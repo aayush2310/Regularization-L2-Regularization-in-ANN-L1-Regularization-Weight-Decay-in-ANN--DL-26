@@ -1,0 +1,2 @@
+1)Reduce the data-add more rows,data augmentation(creating artificial data)
+2)Reducing the complexity of the model-dropout,early stopping,regularization(l1,l2,l1+l2)
