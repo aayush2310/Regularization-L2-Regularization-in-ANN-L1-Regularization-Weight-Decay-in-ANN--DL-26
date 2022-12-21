@@ -1,0 +1,19 @@
+In ANN,we need to find the value of weights and bias which we find by minimizing the loss function.In regularization,we add a penalty term in our loss function.
+
+L2=>cost=L+(lamda/2n)*E(i=1 to i=k)||w||^2
+    L=loss function,could be binary cross entropy or mse.
+    
+    lambda=hyperparameter,the more we increase it,the weightage of the added parameters increase and the regularization occurs strongly.increasing lambda takes our model 
+           from overfitting to underfitting.
+     n=number of rows.
+     w(i)=weights in our neural network model.
+     
+     By applying the regularization,the value of the weights starts to run towards 0.
+     
+
+L1=>cost=L+(lamda/2n)*E(i=1 to i=k)||w||
+
+
+L2=>cost=L+E(i=1 to L)E(j=1)E(k=1)||w||^2                   //each layer by layer we are going and adding the squared weights,programitically better representation
+
+We dont add the square term of bias,only the square of weights is added.
